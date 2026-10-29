@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-rua-salamanca",
+ "maps": {
+  "fecha": "2026-10-29T04:53:32+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Rúa",
+  "nota": 4.1,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+R%C3%BAa/@40.9637657,-5.6645044,17z/data=!4m9!3m8!1s0xd3f2611e554319b:0x37f9fb7c0e8f3941!5m2!4m1!1i2!8m2!3d40.9637657!4d-5.6645044!16s%2Fg%2F11gf97fpfr",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T04:53:32+01:00",
+  "veredicto": "MEJORABLE",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "Promociones Palanama, S.L.",
+  "cif": "B37450871",
+  "fuente": "https://hotelrua.com/politica-privacidad/",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "Política de privacidad de la web: responsable Promociones Palanama SL, NIF B37450871, inscrita en el Registro Mercantil de Salamanca (persona jurídica); un solo hotel identificado; no cadena."
+ }
+}
