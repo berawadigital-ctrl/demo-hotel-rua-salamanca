@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-rua-salamanca",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T05:49:00+01:00",
+ "updated_at": "2026-10-29T05:50:00+01:00",
+ "business": {
+  "name": "Hotel Rúa",
+  "legal_name": "Promociones Palanama SL",
+  "registry_ids": [
+   "NIF B37450871"
+  ],
+  "url": "https://hotelrua.com/",
+  "domain": "hotelrua.com",
+  "municipality": "Salamanca",
+  "province": "Salamanca",
+  "address": "Calle Sánchez Barbero 11 · 37002 Salamanca",
+  "phones": [
+   "923 27 22 72"
+  ],
+  "emails": [
+   "reservas@hotelrua.com"
+  ],
+  "sector": "hotel de 4 estrellas en un edificio del siglo XIX"
+ },
+ "rating": {
+  "value": 4.1,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+R%C3%BAa/@40.9637657,-5.6645044,17z/data=!4m9!3m8!1s0xd3f2611e554319b:0x37f9fb7c0e8f3941!5m2!4m1!1i2!8m2!3d40.9637657!4d-5.6645044!16s%2Fg%2F11gf97fpfr",
+  "date": "2026-10-29T04:53:32+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "email": "reservas@hotelrua.com",
+  "note": "La web del negocio tiene su propio motor de reservas cuyo enlace no se verifica; la demo usa solo contacto real (correo y telefono)."
+ },
+ "audit_original": {
+  "url": "https://hotelrua.com/",
+  "date": "2026-10-29T05:49:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos de esta tanda",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
