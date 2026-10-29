@@ -1,0 +1,55 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hotelrua.com/",
+ "read_at": "2026-10-29T05:47:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hotelrua.com/",
+   "sha256": "47b298a32a99c275b196099576aba6687664ee5d806b2043aecf615de00f1308",
+   "chars": 4133
+  },
+  {
+   "url": "https://hotelrua.com/como-llegar/",
+   "sha256": "c952c148d10f2e20d111c2fd58881a89964639412357bf144580c8d10b8befc1",
+   "chars": 4832
+  },
+  {
+   "url": "https://hotelrua.com/grupos/",
+   "sha256": "c8b176d5243994079420dd82a73f2683c26e7f0afac2b5c05128f3903ace2a01",
+   "chars": 4434
+  },
+  {
+   "url": "https://hotelrua.com/habitaciones/",
+   "sha256": "65d8c85a9e9b1d625961b7c14ef1486ece8b9337931e5f5caaf5183eb2b9c07d",
+   "chars": 5016
+  },
+  {
+   "url": "https://hotelrua.com/nuestra-historia/",
+   "sha256": "9dce0031f201ca321237ce29ad6c24a315b71052b40d02923d18366f598d23f1",
+   "chars": 3599
+  },
+  {
+   "url": "https://hotelrua.com/politica-privacidad/",
+   "sha256": "a289000946a3144ee473378371a21706ad2097eddacb44683957510369af2fa9",
+   "chars": 15768
+  },
+  {
+   "url": "https://hotelrua.com/servicios/",
+   "sha256": "352e8d0d08b24f5f254e12fe79c13c4a45771db3ebb6186724003034ba5840c6",
+   "chars": 2940
+  },
+  {
+   "url": "https://hotelrua.com/sobre-salamanca/",
+   "sha256": "489b05acef0679847ee33ecf5dc95801475cf428faeda545280380e865a665fe",
+   "chars": 5393
+  }
+ ],
+ "other_pages_read": [
+  "https://hotelrua.com",
+  "https://hotelrua.com/aviso-legal/",
+  "https://hotelrua.com/donde-estamos/",
+  "https://hotelrua.com/politica-de-cookies/",
+  "https://hotelrua.com/wp-content/uploads/2021/11/cartel-fondos-europeos.pdf"
+ ]
+}
