@@ -1,0 +1,457 @@
+{
+ "url": "http://127.0.0.1:43015/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Cuántas habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene diecinueve habitaciones: dobles (hasta 2 adultos y 1 niño), triples (hasta 3 personas), dobles superiores y triples superiores con bal"
+    },
+    {
+     "q": "¿Qué equipamiento tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen caja fuerte, aire acondicionado, escritorio, calefacción, bañera, secador de pelo, smart TV y wifi gratuito. La cuna"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Los servicios del hotel incluyen limpieza diaria, ascensor, consigna, caja fuerte, desayuno bufé, parking concertado de pago e información t"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "El hotel está en una calle peatonal dentro de la Zona de Bajas Emisiones (ZBE). Tiene un acuerdo con un aparcamiento privado y videovigilado"
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Está en la Calle Sánchez Barbero 11, 37002 Salamanca, en el casco histórico. Desde el apeadero Salamanca-La Alamedilla hay unos 10 minutos a"
+    },
+    {
+     "q": "¿Qué historia tiene el edificio?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ocupa un edificio de finales del siglo XIX, catalogado como bien de interés arquitectónico por la ciudad, con fachada de sillería de piedra,"
+    },
+    {
+     "q": "¿Admiten grupos?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Considera reserva de grupo las solicitudes de más de 5 habitaciones. Su web indica precios especiales para largas estancias y grupos, y menú"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Para reservar con esta demo, contacta con el hotel por teléfono 923 27 22 72, por WhatsApp 687 58 39 91 o por correo (reservas@hotelrua.com)"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Teléfono 923 27 22 72; WhatsApp 687 58 39 91; correo reservas@hotelrua.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Su política de privacidad indica como responsable a Promociones Palanama SL."
+    },
+    {
+     "q": "¿Qué hay para visitar en Salamanca?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Su web presenta Salamanca como Ciudad Patrimonio de la Humanidad por la UNESCO desde 1988, con la Universidad fundada en 1218, la Clerecía y"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Para reservar con esta demo, contacta con el hotel por teléfono 923 27 22 72, por WhatsApp 687 58 39 91 o por correo (reservas@hotelrua.com)"
+    },
+    {
+     "q": "¿Tienen suites?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 923 27 22 72 · reservas@hotelrua.com."
+    }
+   ],
+   "chips": [
+    "¿Cuántas habitaciones tiene?",
+    "¿Hay parking?",
+    "¿Dónde está?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "loc_p",
+    "send",
+    "svc1",
+    "svc2",
+    "svc6",
+    "room0_n",
+    "room1_n",
+    "room2_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quantes habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té dinou habitacions: dobles (fins a 2 adults i 1 nen), triples (fins a 3 persones), dobles superiors i triples superiors amb balcó a la faç"
+    },
+    {
+     "q": "Quin equipament tenen les habitacions?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen caixa forta, aire condicionat, escriptori, calefacció, banyera, assecador, smart TV i wifi gratuïta. El bressol és gra"
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Els serveis de l'hotel inclouen neteja diària, ascensor, consigna, caixa forta, esmorzar bufet, pàrquing concertat de pagament i informació "
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "L'hotel és en un carrer de vianants dins la Zona de Baixes Emissions (ZBE). Té un acord amb un aparcament privat i videovigilat a 220 metres"
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "És a la Calle Sánchez Barbero 11, 37002 Salamanca, al nucli històric. Des de l'apeador Salamanca-La Alamedilla hi ha uns 10 minuts a peu i d"
+    },
+    {
+     "q": "Quina història té l'edifici?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ocupa un edifici de finals del segle XIX, catalogat com a bé d'interès arquitectònic per la ciutat, amb façana de carreus de pedra, miradors"
+    },
+    {
+     "q": "Admeteu grups?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Considera reserva de grup les sol·licituds de més de 5 habitacions. La seva web indica preus especials per a llargues estades i grups, i men"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Per reservar amb aquesta demo, contacta amb l'hotel per telèfon 923 27 22 72, per WhatsApp 687 58 39 91 o per correu (reservas@hotelrua.com)"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Telèfon 923 27 22 72; WhatsApp 687 58 39 91; correu reservas@hotelrua.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "La seva política de privacitat indica com a responsable Promociones Palanama SL."
+    },
+    {
+     "q": "Què hi ha per visitar a Salamanca?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "La seva web presenta Salamanca com a Ciutat Patrimoni de la Humanitat per la UNESCO des de 1988, amb la Universitat fundada el 1218, la Cler"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Per reservar amb aquesta demo, contacta amb l'hotel per telèfon 923 27 22 72, per WhatsApp 687 58 39 91 o per correu (reservas@hotelrua.com)"
+    },
+    {
+     "q": "Teniu suites?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 923 27 22 72 · reservas@hotelrua.com."
+    }
+   ],
+   "chips": [
+    "Quantes habitacions té?",
+    "Hi ha pàrquing?",
+    "On és?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "loc_p",
+    "svc6"
+   ],
+   "chat": [
+    {
+     "q": "How many rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has nineteen rooms: doubles (up to 2 adults and 1 child), triples (up to 3 guests), superior doubles and superior triples with a balcony "
+    },
+    {
+     "q": "What equipment do the rooms have?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The rooms have a safe, air conditioning, a desk, heating, a bathtub, a hairdryer, a smart TV and free wifi. A cot is free on request."
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hotel services include daily cleaning, a lift, luggage storage, a safe, a buffet breakfast, a contracted paid car park and tourist infor"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "The hotel is on a pedestrian street inside the Low Emission Zone (ZBE). It has an agreement with a private, video-monitored car park 220 met"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "It is at Calle Sánchez Barbero 11, 37002 Salamanca, in the historic centre. From the Salamanca-La Alamedilla stop it is about 10 minutes on "
+    },
+    {
+     "q": "What history does the building have?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "It occupies a late nineteenth-century building, listed by the city as a building of architectural interest, with a stone ashlar façade, iron"
+    },
+    {
+     "q": "Do you accept groups?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It treats requests for more than 5 rooms as group bookings. Its website mentions special prices for long stays and groups, and menus for gro"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "To book through this demo, contact the hotel by phone 923 27 22 72, by WhatsApp 687 58 39 91 or by email (reservas@hotelrua.com). This assis"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Phone 923 27 22 72; WhatsApp 687 58 39 91; email reservas@hotelrua.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Its privacy policy names Promociones Palanama SL as the data controller."
+    },
+    {
+     "q": "What is there to visit in Salamanca?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Its website presents Salamanca as a UNESCO World Heritage City since 1988, with the University founded in 1218, the Baroque Clerecía and Pla"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "To book through this demo, contact the hotel by phone 923 27 22 72, by WhatsApp 687 58 39 91 or by email (reservas@hotelrua.com). This assis"
+    },
+    {
+     "q": "Do you have suites?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 923 27 22 72 · reservas@hotelrua.com."
+    }
+   ],
+   "chips": [
+    "How many rooms does it have?",
+    "Is there parking?",
+    "Where is it?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc6"
+   ],
+   "chat": [
+    {
+     "q": "Combien de chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte dix-neuf chambres : doubles (jusqu'à 2 adultes et 1 enfant), triples (jusqu'à 3 personnes), doubles supérieures et triples supérie"
+    },
+    {
+     "q": "Quel équipement ont les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres disposent d'un coffre-fort, de la climatisation, d'un bureau, du chauffage, d'une baignoire, d'un sèche-cheveux, d'une smart TV"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Les services de l'hôtel comprennent le ménage quotidien, l'ascenseur, la consigne, un coffre-fort, un petit-déjeuner buffet, un parking conv"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "L'hôtel est dans une rue piétonne située dans la Zone à Faibles Émissions (ZBE). Il a un accord avec un parking privé et vidéosurveillé à 22"
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il se trouve Calle Sánchez Barbero 11, 37002 Salamanque, dans le centre historique. Depuis l'arrêt Salamanca-La Alamedilla, comptez environ "
+    },
+    {
+     "q": "Quelle histoire a le bâtiment ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Il occupe un bâtiment de la fin du XIXe siècle, classé par la ville comme bien d'intérêt architectural, avec une façade en pierre de taille,"
+    },
+    {
+     "q": "Acceptez-vous les groupes ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il considère comme réservation de groupe les demandes de plus de 5 chambres. Son site mentionne des prix spéciaux pour longs séjours et grou"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Pour réserver via cette démo, contactez l'hôtel par téléphone 923 27 22 72, par WhatsApp 687 58 39 91 ou par e-mail (reservas@hotelrua.com)."
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Téléphone 923 27 22 72 ; WhatsApp 687 58 39 91 ; e-mail reservas@hotelrua.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sa politique de confidentialité désigne Promociones Palanama SL comme responsable."
+    },
+    {
+     "q": "Que visiter à Salamanque ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Son site présente Salamanque comme Ville du patrimoine mondial de l'UNESCO depuis 1988, avec l'Université fondée en 1218, la Clerecía et la "
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Pour réserver via cette démo, contactez l'hôtel par téléphone 923 27 22 72, par WhatsApp 687 58 39 91 ou par e-mail (reservas@hotelrua.com)."
+    },
+    {
+     "q": "Avez-vous des suites ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 923 27 22 72 · reservas@hotelrua.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 923 27 22 72 · reservas@hotelrua.com."
+    }
+   ],
+   "chips": [
+    "Combien de chambres a-t-il ?",
+    "Y a-t-il un parking ?",
+    "Où est-il ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
